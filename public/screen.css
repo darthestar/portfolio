@@ -6,4 +6,97 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  font-family: 'Roboto',sans-serif;
+  
 }
+
+.profile-pic{
+  width: 10em;
+  height: 10em;
+  margin: 5em;
+}
+
+.main-top-section{
+  background-image: url("./images/space.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+
+.top-section{
+  
+  
+}
+
+.top-elements{
+  display: flex;
+  flex-direction: row;
+  margin: 0em 5em 10em 8em;
+}
+
+.top-text-bubble{
+  color: white;
+  margin: 5em;
+  
+}
+
+
+.bottom-elements{
+  display: flex;
+  flex-direction: row;
+  
+  
+  
+}
+.bottom-images img{
+height: 15em;
+}
+
+.middle-section{
+  background-color: black;
+}
+
+.middle-first-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.middle-second-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.box1-text-bottom{
+  background-color: ivory;
+  text-align: center;
+  border: 2px solid purple;
+  margin: 0em 5em 0em 5em;
+}
+
+.box1-image-top{
+  width: 60em;
+  height: 3em;
+  margin: 0em 5em 0em 5em;
+}
+
+.box2-text-bottom{
+  background-color: ivory;
+  text-align: center;
+  border: 2px solid purple;
+  margin: 0em 5em 0em 5em;
+}
+
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+
+.f
