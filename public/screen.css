@@ -11,9 +11,10 @@ body {
 }
 
 .profile-pic{
-  width: 10em;
-  height: 10em;
-  margin: 5em;
+  width: 11em;
+  height:11em;
+  margin: 6em 0em 5em 14em;
+  border-radius: 4px;
 }
 
 .main-top-section{
@@ -23,6 +24,8 @@ body {
 
 }
 
+
+
 .top-section{
   
   
@@ -31,13 +34,31 @@ body {
 .top-elements{
   display: flex;
   flex-direction: row;
-  margin: 0em 5em 10em 8em;
+  /* justify-content: space-around; */
+  align-content: center;
 }
 
+
+
 .top-text-bubble{
-  color: white;
-  margin: 5em;
-  
+  color: black;
+  margin: 5em 5em 15em 1em;
+  background-color: #CFD3D5;
+  padding: 1em 6em 1em 2em;
+  border-radius: 4px;
+
+}
+
+.top-line{
+  font-size: 25px;
+  font-weight: 900px;
+
+ 
+}
+
+.bottom-line{
+  font-size: 18px;
+ 
 }
 
 
